@@ -217,7 +217,6 @@ public class TicTacToeGame {
    /**
    * Shows the results of the Tic-Tac-Toe round
    */
-   // https://www.youtube.com/watch?v=BuW7y21FcYI
    public void showResults() {
    
       String message = xName + " Wins: " + xWins + "\n" + oName + " Wins: " + oWins + "\nTies: " + ties;
