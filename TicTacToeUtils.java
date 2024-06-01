@@ -10,8 +10,6 @@ public class TicTacToeUtils {
    * @param board is the Tic-Tac-Toe gameboard
    * @return 'X' if player x wins, 'O' if player o wins, 'T' if it is a tie, and '\0' if the game is still going
    */
-   // checkWinner method logic was inspired by (but it was mostly done by me): 
-   // https://www.youtube.com/watch?v=rA7tfvpkw0I and https://www.youtube.com/watch?v=Nc77ymnm8Ss
    public static char checkWinner(char[][] board) {
    
       // Checks the rows if someone won
@@ -44,9 +42,7 @@ public class TicTacToeUtils {
          return board[0][2];
       }
       
-      // Checks if the board is full
-      // this was also inspired by one of the videos above
-      // but again, I pretty much did it all myself but just in case I cited the sources     
+      // Checks if the board is full    
       boolean boardFull = true;
       for (int row = 0; row < 3; row++) {
       
